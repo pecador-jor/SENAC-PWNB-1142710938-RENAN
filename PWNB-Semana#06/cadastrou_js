@@ -1,0 +1,4 @@
+
+function cadastrou () {
+    window . alert ("Você se cadastrou! ");  
+    }

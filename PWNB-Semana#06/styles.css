@@ -1,0 +1,182 @@
+.navbar {
+    background-color: #003f7e;  
+    overflow: hidden;
+    height: 60px;
+    font-size: 15px;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color:  #f8f8f8;
+    text-align: center;
+    padding: 23px 16px;
+    text-decoration: none;
+
+  }
+  
+  .navbar a:hover {
+    background-color: #032d57;
+    color:  #ffffff;
+  }
+
+  .logoinicio{
+    float: left;
+    height: 70px;
+    width: 70px;
+  }
+
+  .avaliação{
+    background-color:#b4cbe97c ;
+  }
+   
+  .avaliações{
+    width: 10%;
+    height: 20%;
+    
+    
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+  }
+  header {
+      background-color: #074888;
+      color: #ffffff;
+      text-align: center;
+      padding: 1px;
+  }
+
+   h2{
+    font-size: 27px;
+    color: #041638;
+    font-family: Verdana;
+    margin: 50px;
+    padding: 0px;
+    text-align: start;
+  }
+
+  h3{
+    font-size: 23px;
+    color: #041638;
+    font-family: Verdana;
+    margin: 50px;
+    padding: 0px;
+    text-align: start;
+  }
+
+  h4{
+    font-size: 23px;
+    color: #013fb1;
+    font-family: Verdana;
+    margin: 50px;
+    padding: 0px;
+    text-align: justify;
+  }
+
+  p {
+    font-size: 18px;
+    color: #000524;
+    font-family: cursive;
+    margin: 50px;
+    padding: 0;
+    line-height: 1.5;
+    
+   
+    
+  }
+  
+  li{
+    font-size: 18px;
+    color: #000524;
+    font-family: cursive;
+    margin: 50px;
+    padding: 0;
+    line-height: 1.5;
+    text-align: absolute;
+  }
+
+  footer {
+    background-color: #08007ae3;
+    color: #fff; 
+    padding: 50px; 
+    text-align: center; 
+}
+
+
+
+.footerLogo img {
+    width: 80px;
+    height: 80px;
+    float: unset;
+}
+
+
+.footerNav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerNav li {
+    margin: 10px 0;
+}
+
+.footerNav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerNav a:hover {
+    background-color: #061014;
+}
+
+
+.footerLink a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.footerLink a:hover {
+  background-color: #061014;
+}
+  
+  
+  
+  input[type="text"] {
+    width: 20%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="email"] {
+    width: 20%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="password"] {
+    width: 20%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  button {
+      margin: 0 50px;
+      background-color: #020530;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      
+  }
