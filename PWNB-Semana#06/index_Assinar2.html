@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinatura 2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+        <h1>Confirme mais alguns dados para prosseguir...</h1>
+        
+        <form>
+            
+            <h2>Selecione uma Forma de Pagamento</h2>
+            <label for="pagamento">Forma de Pagamento:</label>
+            <select required>
+                <option value="pix">Pix - R$ 1000,00</option>
+                <option value="cartao">Cartão de Crédito Débito Automático - 12x R$83,33 s/juros</option>
+                <option value="boleto">Boleto Bancário Mensal - 12x R$83,33 s/juros</option>
+            </select>
+            
+            <h2>Confirmação de Seus Dados</h2>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" placeholder="000.000.000-00" required>>
+            
+            <label for="email">Endereço de Email:</label>
+            <input type="email" required>
+            
+            <h2>Confirme a sua Assinatura</h2>
+            <select required>
+                <option value="confirma">Confirmo e estou de acordo com os Termos</option>
+            </select>
+            
+
+            <input type="submit" value="Confirmar">
+        </form>
+</html>
